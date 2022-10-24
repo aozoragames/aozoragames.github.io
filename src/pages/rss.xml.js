@@ -1,10 +1,12 @@
-import rss from '@astrojs/rss';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import rss from "@astrojs/rss";
+
+const postImportResult = import.meta.globEager("./posts/*.md");
+const posts = Object.values(postImportResult);
 
 export const get = () =>
-	rss({
-		title: SITE_TITLE,
-		description: SITE_DESCRIPTION,
-		site: import.meta.env.SITE,
-		items: import.meta.glob('./blog/**/*.{md,mdx}'),
-	});
+  rss({
+    title: "Astro Theme Creek",
+    description: "A Theme for Astro",
+    site: import.meta.env.SITE,
+    items: import.meta.glob("./posts/**/*.md"),
+  });

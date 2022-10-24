@@ -1,64 +1,26 @@
-# Astro Starter Kit: Blog
+# Astro Creek - a blog theme for Astro
 
-```
-npm create astro@latest -- --template blog
-```
+![](./public/images/creek.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
+Creek is an open source blog theme for [Astro SSG](https://docs.astro.build/getting-started/).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Demo
 
+[View Creek on Netlify](https://astro-theme-creek.netlify.app/)
 
-![blog](https://user-images.githubusercontent.com/4677417/186189140-4ef17aac-c3c9-4918-a8c2-ce86ba1bb394.png)
+## Credits
 
-Features:
+This theme is built upon a theme called [Starter's Creek](https://github.com/statamic/starter-kit-starters-creek) for [Statamic CMS](https://statamic.com/). Full design credit goes to [Jack McDade](https://twitter.com/jackmcdade).
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+This theme also take's some ideas and functionality from [Ink](https://github.com/one-aalam/astro-ink), another great theme for Astro.
 
-## 🚀 Project Structure
+## Features
 
-Inside of your Astro project, you'll see the following folders and files:
+- Search powered by [Lunr.js](https://lunrjs.com/) and [Mark.js](https://markjs.io/)
+- Sitemap
+- RSS Feed
+- SEO ready. If you are looking for more SEO functionality, check out this [Astro SEO Plugin](https://github.com/jonasmerlin/astro-seo).
 
-```
-├── public/
-├── src/
-│   ├── components/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+## Misc.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+This theme used to power my personal site [HowToCode.io](https://howtocode.io), the repo of which can be found [here](https://github.com/robertguss/HowToCode-Astro)
